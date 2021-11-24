@@ -6,6 +6,7 @@ import NavegationBar from "./components/layout/NavegationBar";
 import Home from "./pages/Home";
 import MealDetail from "./pages/MealDetail";
 import MealList from "./pages/MealList";
+
 import CartProvider from "./store/CartProvider";
 
 function App() {
