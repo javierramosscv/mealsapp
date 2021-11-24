@@ -1,0 +1,101 @@
+.cart-item-container {
+  border-bottom: 2px solid teal;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  align-content: stretch;
+  /* background: darkblue; */
+}
+
+.cart-main {
+  display: flex;
+  padding: 0 0;
+  margin-left: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+.item-number {
+  font-size: 12px;
+  flex: 0 1 auto;
+  margin-top: 10px;
+  /* background: yellow; */
+}
+
+.cart-content {
+  /* background: tomato; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: tomato; */
+  flex: 1 2 auto;
+  justify-content: flex-start;
+}
+
+.item-title {
+  font-size: 16px;
+  margin-left: 6px;
+  /* background: darkgreen; */
+  align-self: flex-start;
+  padding: 6px;
+  margin-top: 0;
+}
+
+.item-price-content {
+  display: flex;
+  flex-direction: row;
+  padding: 6px;
+  /* background: darkslateblue; */
+  align-self: flex-end;
+}
+
+.actions {
+  display: flex;
+  /* background: dimgray; */
+
+  margin-right: 60px;
+}
+
+.cart-item-container button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: teal;
+  border: 1px solid teal;
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+
+.cart-item-container button:hover,
+.cart-item-container button:active {
+  background-color: teal;
+  color: white;
+}
+
+.qty-price {
+  display: flex;
+  /* background: firebrick; */
+
+  width: 20rem;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  color: black;
+}
+
+.amount {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  color: #363636;
+}

@@ -1,0 +1,102 @@
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 6px;
+  border-top: solid;
+  border-color: teal;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid teal;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: teal;
+  border-color: teal;
+  color: white;
+}
+
+.actions .button--alt {
+  color: teal;
+}
+
+.actions .button {
+  background-color: teal;
+  color: white;
+}
+
+.actions button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.box {
+  /* margin: 6px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-bottom-left-radius: 5px;
+  border: solid;
+  padding: 6px;
+  border-color: teal;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.headerbar {
+  display: flex;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  margin-right: 6px;
+  background-color: teal;
+  border: solid;
+  padding: 6px;
+  border-color: teal;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  order: 1;
+  flex: 0 1 auto;
+  font-size: 2rem;
+  color: white;
+}
+.headertext {
+  order: 2;
+  flex: 1 1 auto;
+  color: white;
+  font-size: 1.5rem;
+  align-self: center;
+}

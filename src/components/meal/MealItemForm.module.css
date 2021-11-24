@@ -1,0 +1,55 @@
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+
+  background-color: teal;
+  border: 1px solid teal;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.form button:hover {
+  /* background-color: #641e03;
+  border-color: #641e03; */
+  background-color: #11acac;
+  border-color: #11acac;
+}
+
+.form button:active {
+  background-color: black;
+  border-color: black;
+  transform: translateY(1px);
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.input label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.input input {
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+}
+
+.messageform {
+  padding: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+.confirmation {
+  padding: 6px;
+}
